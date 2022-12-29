@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import instagram from '../assets/instagram.svg';
 import linkedin from '../assets/linkedin.svg';
 
+
 export default function NavBar() {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
@@ -28,7 +29,7 @@ export default function NavBar() {
   }
 
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+        <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
             <img className='logo-img' src="https://i.imgur.com/SA3phdf.png" alt="logo" />
@@ -40,15 +41,15 @@ export default function NavBar() {
             <Nav className="me-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#project" className={activeLink === 'projects' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
-            <span className='navbar-text'>
-              <div className='social-icons'>
-                <a href="#"><img src={linkedin} alt="" /></a>
+            <span className="navbar-text">
+              <div className="social-icons">
+                <a href="https://www.linkedin.com/in/shea-ehrenberger/" target="_blank"><img src={linkedin} alt="" /></a>
                 <a href="#"><img src={instagram} alt="" /></a>
               </div>
+              <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
             </span>
-            <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </Navbar.Collapse>
         </Container>
       </Navbar>
