@@ -64,7 +64,7 @@ export default function Banner() {
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src='https://i.imgur.com/vWx96Zp.png' alt="header img" />
+                        <img src='https://i.imgur.com/elV6itq.png' alt="header img" />
                     </Col>
                 </Row>
             </Container>
