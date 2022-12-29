@@ -45,8 +45,8 @@ export default function NavBar() {
             </Nav>
             <span className="navbar-text">
               <div className="social-icons">
-                <a href="https://www.linkedin.com/in/shea-ehrenberger/" target="_blank"><img src={linkedin} alt="" /></a>
-                <a href="#"><img src={instagram} alt="" /></a>
+                <a href="https://www.linkedin.com/in/shea-ehrenberger/" target="_blank" rel="noreferrer"><img src={linkedin} alt="" /></a>
+                <a href="https://github.com/xiesheaeix" target="_blank" rel="noreferrer"><img src={instagram} alt="github" /></a>
               </div>
               <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
             </span>
