@@ -35,21 +35,42 @@ export default function Skills() {
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi eligendi asperiores rerum beatae corporis quo ipsam aspernatur ducimus nulla. Voluptatum ex temporibus mollitia atque saepe neque numquam, provident accusantium reiciendis?</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src="https://i.imgur.com/pXpk1Nk.png" alt="skill img" />
-                                    <h5>Web Development</h5>
-                                </div>
-                                <div className="item">
-                                    <img src="https://i.imgur.com/6XAsaoa.png" alt="skill img" />
-                                    <h5>Back-end</h5>
-                                </div>
-                                <div className="item">
-                                    <img src="https://i.imgur.com/xSZ23J9.png" alt="skill img" />
-                                    <h5>Front-End</h5>
-                                </div>
-                                <div className="item">
-                                    <img src="https://i.imgur.com/AmkRhCY.png" alt="skill img" />
+                                    <img src="https://i.imgur.com/Ec1vAx7.png" alt="skill img" />
                                     <h5>React</h5>
                                 </div>
+                                <div className="item">
+                                    <img src="https://i.imgur.com/zo5ee96.png" alt="skill img" />
+                                    <h5>JavaScript</h5>
+                                </div>
+                                <div className="item">
+                                    <img src="https://i.imgur.com/QO9o7ZY.png" alt="skill img" />
+                                    <h5>Python</h5>
+                                </div>
+                                <div className="item">
+                                    <img src="https://i.imgur.com/ykbZoOI.png" alt="skill img" />
+                                    <h5>Bootstrap</h5>
+                                </div>
+                                <div className="item">
+                                    <img src="https://i.imgur.com/maUC2uV.png" alt="skill img" />
+                                    <h5>Node.js</h5>
+                                </div>
+                                <div className="item">
+                                    <img src="https://i.imgur.com/8ZXZmc8.png" alt="skill img" />
+                                    <h5>SQL Databases</h5>
+                                </div>
+                                <div className="item">
+                                    <img src="https://i.imgur.com/QHaCDKW.png" alt="skill img" />
+                                    <h5>Django</h5>
+                                </div>
+                                <div className="item">
+                                    <img src="https://i.imgur.com/SWa38lH.png" alt="skill img" />
+                                    <h5>NoSQL Databases</h5>
+                                </div>
+                                <div className="item">
+                                    <img src="https://i.imgur.com/fc2cPp2.png" alt="skill img" />
+                                    <h5>Express.js</h5>
+                                </div>
+                            
                             </Carousel>
                         </div>
                     </Col>

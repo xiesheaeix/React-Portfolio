@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import { Container, Row ,Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
+import 'animate.css';
+import TrackVisibility from "react-on-screen";
+
+
 
 export default function Banner() {
     const [loopNum, setLoopNum] = useState(0);
@@ -44,18 +48,23 @@ export default function Banner() {
     return (
         <section className="banner" id="home">
             <video autoPlay muted loop>
-             <source src="https://i.imgur.com/Gyy22GJ.mp4" type="video/mp4" />
+             <source src="https://i.imgur.com/djZ1TZs.mp4" type="video/mp4" />
             </video>
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my portfolio</span>
-                        <h1>{`Hi I'm Shea Ehrenberger `}<br></br><span className="wrap">{text}</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa tenetur tempore porro eum cum natus hic enim, vitae accusamus eveniet temporibus similique quisquam quam unde. Eligendi officia quod ipsum.</p>
-                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/> </button>
+                        <TrackVisibility>
+                        {({ isVisible }) =>
+                        <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                            <span className="tagline">Welcome to my portfolio</span>
+                            <h1>{`Hi I'm Shea Ehrenberger `}<span className="wrap">{text}</span></h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa tenetur tempore porro eum cum natus hic enim, vitae accusamus eveniet temporibus similique quisquam quam unde. Eligendi officia quod ipsum.</p>
+                            <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
+                        </div>}
+                        </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src='https://i.imgur.com/SA3phdf.png' alt="header img" />
+                        <img src='https://i.imgur.com/vWx96Zp.png' alt="header img" />
                     </Col>
                 </Row>
             </Container>

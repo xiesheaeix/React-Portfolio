@@ -216,6 +216,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 
 /*** if video background ***/
+
 .banner video {
   z-index: -1;
   position: absolute;
@@ -228,15 +229,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   object-fit: cover;
   -o-object-position: center;
   object-position: center;
-}
+} 
 
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  /* background-image: url('https://i.imgur.com/dO3NI34.jpg'); */
-  background-position: top center;
+  /* background-image: url('https://i.imgur.com/k1Ia7Dt.jpg'); */
+  /* background-position: top center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .banner .tagline {
   font-weight: 700;
@@ -467,7 +468,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
