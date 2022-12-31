@@ -11,7 +11,7 @@ export default function Banner() {
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = ["Web Developer ", "Full-Stack Developer ", "Web Designer "];
     const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
+    const [delta, setDelta] = useState(200 - Math.random() * 100);
     const timePeriod = 2000;
 
     useEffect(() => {
@@ -39,7 +39,7 @@ export default function Banner() {
         } else if (isDeleting && updatedText === '')  {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(500);
+            setDelta(200);
         }
 
 
@@ -62,7 +62,7 @@ export default function Banner() {
                                 A lover of all things technology and web development. I am constantly learning to develop my skills and deepen my knowledge
                                 of all things tech. From front to back-end, I'm ready to bring my skill set to a great team! 
                             </p>
-                            <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
+                            <a href="mailto:sheae123@gmail.com"><button>Let's Connect <ArrowRightCircle size={25}/></button></a>
                         </div>}
                         </TrackVisibility>
                     </Col>

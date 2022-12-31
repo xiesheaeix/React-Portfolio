@@ -48,7 +48,7 @@ export default function NavBar() {
                 <a href="https://www.linkedin.com/in/shea-ehrenberger/" target="_blank" rel="noreferrer"><img src={linkedin} alt="" /></a>
                 <a href="https://github.com/xiesheaeix" target="_blank" rel="noreferrer"><img src={github} alt="github" /></a>
               </div>
-              <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+              <a href="mailto:sheae123@gmail.com" target="_blank" rel="noreferrer"><button className='vvd'><span>Let's Connect</span></button></a>
             </span>
           </Navbar.Collapse>
         </Container>
