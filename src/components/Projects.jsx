@@ -26,52 +26,52 @@ export default function Projects() {
     const project2 = [
         {
             title: "Modern Landing Page",
-            description: "MERN Stack E-Commerce Web App",
+            description: "Beautiful modern design with an elegant home for all our products",
             imgUrl: "https://i.imgur.com/P0htl3f.png"
         },
         {
             title: "Shopping Cart/Categories",
-            description: "Django App consuming an API for browsing movie trailers",
+            description: "Dynamic shopping cart and product categories that update on click ",
             imgUrl: "https://i.imgur.com/KcoChpB.png"
         },
         {
             title: "Admin Panel",
-            description: "MEN Stack App to post private/public journal entries and look at others posts",
+            description: "Admin users have the ability to add/delete products on the site and view active orders",
             imgUrl: "https://i.imgur.com/YBrGbyo.png"
         },
     ];
     const project3 = [
         {
-            title: "Journaling Social Media App",
-            description: "MEN Stack App to post private/public journal entries and look at others posts",
-            imgUrl: "https://i.imgur.com/yvw1QmN.jpg"
+            title: "HomePage",
+            description: "Browse the website as a visitor or sign up using google oauth",
+            imgUrl: "https://i.imgur.com/FXwk88H.png"
         },
         {
-            title: "Cinéflix",
-            description: "Django App consuming an API for browsing movie trailers",
-            imgUrl: "https://i.imgur.com/AONTV7Q.jpg"
+            title: "User Profile",
+            description: "User's profiles contain all of their posts and only the user cna look at their private posts",
+            imgUrl: "https://i.imgur.com/sOCgLwW.png"
         },
         {
-            title: "Journaling Social Media App",
-            description: "MEN Stack App to post private/public journal entries and look at others posts",
-            imgUrl: "https://i.imgur.com/yvw1QmN.jpg"
+            title: "Post Details",
+            description: "Look at post details with the ability to comment and edit your own post ",
+            imgUrl: "https://i.imgur.com/aIUEgqG.png"
         },
     ];
     const project4 = [
         {
-            title: "Journaling Social Media App",
-            description: "MEN Stack App to post private/public journal entries and look at others posts",
-            imgUrl: "https://i.imgur.com/yvw1QmN.jpg"
+            title: "Easy & Hard Game Play",
+            description: "Scary theme with options to increase game intensity",
+            imgUrl: "https://i.imgur.com/8rOfFWz.png"
         },
         {
-            title: "Cinéflix",
-            description: "Django App consuming an API for browsing movie trailers",
-            imgUrl: "https://i.imgur.com/AONTV7Q.jpg"
+            title: "Game Play Page",
+            description: "Enjoy testing your memory with this dynamic JS game",
+            imgUrl: "https://i.imgur.com/G1sGLFn.png"
         },
         {
-            title: "Journaling Social Media App",
-            description: "MEN Stack App to post private/public journal entries and look at others posts",
-            imgUrl: "https://i.imgur.com/yvw1QmN.jpg"
+            title: "Scary Surprise",
+            description: "Game Losers will be meet with a scary surprise!",
+            imgUrl: "https://i.imgur.com/dF5fJm9.png"
         },
     ];
 
@@ -106,8 +106,10 @@ export default function Projects() {
                                 <Tab.Pane eventKey="first">
                                 <h2>Cinéflix</h2> 
                                 <p>Django Web App consuming an API to browse movie trailers</p>
-                                <Button href="https://cineflixapp.herokuapp.com/" variant="outline-info">Live Demo</Button>
-                                <Button href="https://github.com/xiesheaeix/cineflix" variant="outline-info">GitHub</Button>
+                                <div className="project-info-btns">
+                                    <Button href="https://cineflixapp.herokuapp.com/" variant="outline-info">Live Demo</Button>
+                                    <Button href="https://github.com/xiesheaeix/cineflix" variant="outline-info">GitHub</Button>
+                                </div>
                                     <Row>
                                         {
                                             project1.map((project, idx) => {
@@ -124,8 +126,10 @@ export default function Projects() {
                                 <Tab.Pane eventKey="second">
                                 <h2>Petit Trésor</h2> 
                                 <p>MERN Stack E-Commerce Web App with admin panel</p>
-                                <Button href="https://petit-tresor.herokuapp.com/" variant="outline-info">Live Demo</Button>
-                                <Button href="https://github.com/xiesheaeix/Petit-Tresor" variant="outline-info">GitHub</Button>
+                                <div className="project-info-btns">
+                                    <Button href="https://petit-tresor.herokuapp.com/" variant="outline-info">Live Demo</Button>
+                                    <Button href="https://github.com/xiesheaeix/Petit-Tresor" variant="outline-info">GitHub</Button>
+                                </div>
                                     <Row>   
                                         {
                                             project2.map((project, idx) => {
@@ -142,8 +146,10 @@ export default function Projects() {
                                 <Tab.Pane eventKey="third"> 
                                 <h2>Journal App</h2> 
                                 <p>MEN Stack Web App where uses can make private or public posts</p>
-                                <Button href="https://journal-app-1997.herokuapp.com/" variant="outline-info">Live Demo</Button>
-                                <Button href="https://github.com/xiesheaeix/Journal-App" variant="outline-info">GitHub</Button>
+                                <div className="project-info-btns">
+                                    <Button href="https://journal-app-1997.herokuapp.com/" variant="outline-info">Live Demo</Button>
+                                    <Button href="https://github.com/xiesheaeix/Journal-App" variant="outline-info">GitHub</Button>
+                                </div>
                                     <Row>
                                         {
                                             project3.map((project, idx) => {
@@ -160,8 +166,10 @@ export default function Projects() {
                                 <Tab.Pane eventKey="fourth"> 
                                 <h2>Scary Memory Game</h2> 
                                 <p>Vanilla JS based concentration game with a scary surprise</p>
-                                <Button href="https://xiesheaeix.github.io/Project-1/" variant="outline-info">Live Demo</Button>
-                                <Button href="https://github.com/xiesheaeix/Project-1" variant="outline-info">GitHub</Button>
+                                <div className="project-info-btns">
+                                    <Button href="https://xiesheaeix.github.io/Project-1/" variant="outline-info">Live Demo</Button>
+                                    <Button href="https://github.com/xiesheaeix/Project-1" variant="outline-info">GitHub</Button>
+                                </div>
                                     <Row>
                                         {
                                             project4.map((project, idx) => {

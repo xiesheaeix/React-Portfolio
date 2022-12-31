@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import instagram from '../assets/instagram.svg';
+import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
 
 
@@ -44,9 +44,9 @@ export default function NavBar() {
               <Nav.Link href="#project" className={activeLink === 'projects' ? 'active-navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <div className="social-icons">
+              <div className="social-icon">
                 <a href="https://www.linkedin.com/in/shea-ehrenberger/" target="_blank" rel="noreferrer"><img src={linkedin} alt="" /></a>
-                <a href="https://github.com/xiesheaeix" target="_blank" rel="noreferrer"><img src={instagram} alt="github" /></a>
+                <a href="https://github.com/xiesheaeix" target="_blank" rel="noreferrer"><img src={github} alt="github" /></a>
               </div>
               <button className='vvd' onClick={() => console.log('connect')}><span>Let's Connect</span></button>
             </span>

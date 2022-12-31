@@ -58,7 +58,10 @@ export default function Banner() {
                         <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <span className="tagline">Welcome to my portfolio</span>
                             <h1>{`Hi I'm Shea, `}<span className="wrap">{text}</span></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa tenetur tempore porro eum cum natus hic enim, vitae accusamus eveniet temporibus similique quisquam quam unde. Eligendi officia quod ipsum.</p>
+                            <p>
+                                A lover of all things technology and web development. I am constantly learning to develop my skills and deepen my knowledge
+                                of all things tech. From front to back-end, I'm ready to bring my skill set to a great team! 
+                            </p>
                             <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
                         </div>}
                         </TrackVisibility>

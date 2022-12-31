@@ -32,7 +32,7 @@ export default function Skills() {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi eligendi asperiores rerum beatae corporis quo ipsam aspernatur ducimus nulla. Voluptatum ex temporibus mollitia atque saepe neque numquam, provident accusantium reiciendis?</p>
+                            <p>Browse through some of the technologies I have experience working with!</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src="https://i.imgur.com/Ec1vAx7.png" alt="skill img" />
