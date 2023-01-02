@@ -33,7 +33,7 @@ export default function Contact() {
         });
         setButtonText("Send");
         // let result = response.json();
-        setFormDetails(formInitialDetails);
+        // setFormDetails(formInitialDetails);
         // if (result.code === 200) {
         //     setStatus({ success: true, message: 'Message send'});
         // } else {

@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="footer">
             <Container>
             <Row className="align-items-center">
-                <p>Website built & designed by Shea in React.<br></br> <small>&copy; Copyright 2022, Shea Ehrenberger</small> </p>
+                <p>Website built by Shea in React.<br></br> <small>&copy; Copyright 2022, Shea Ehrenberger</small> </p>
             </Row>
             </Container>
       </footer>

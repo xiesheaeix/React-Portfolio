@@ -16,8 +16,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 
 app.listen(port, () => console.log("Server Running"));
-// console.log(process.env.EMAIL_USER);
-// console.log(process.env.EMAIL_PASS);
+
 
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
